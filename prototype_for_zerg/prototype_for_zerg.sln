@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "prototype_for_zerg", "prototype_for_zerg\prototype_for_zerg.vcxproj", "{0E7E76E3-8AB9-4417-873B-01D538F235C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E7E76E3-8AB9-4417-873B-01D538F235C0}.Debug|x64.ActiveCfg = Debug|x64
+		{0E7E76E3-8AB9-4417-873B-01D538F235C0}.Debug|x64.Build.0 = Debug|x64
+		{0E7E76E3-8AB9-4417-873B-01D538F235C0}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E7E76E3-8AB9-4417-873B-01D538F235C0}.Debug|x86.Build.0 = Debug|Win32
+		{0E7E76E3-8AB9-4417-873B-01D538F235C0}.Release|x64.ActiveCfg = Release|x64
+		{0E7E76E3-8AB9-4417-873B-01D538F235C0}.Release|x64.Build.0 = Release|x64
+		{0E7E76E3-8AB9-4417-873B-01D538F235C0}.Release|x86.ActiveCfg = Release|Win32
+		{0E7E76E3-8AB9-4417-873B-01D538F235C0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90327449-CC37-4682-96CB-3C81F20DDD57}
+	EndGlobalSection
+EndGlobal
