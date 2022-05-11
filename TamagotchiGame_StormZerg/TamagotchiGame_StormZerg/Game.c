@@ -3,6 +3,7 @@
 #include "Renderer.h"
 #include "Timer.h"
 #include "Input.h"
+#include "PrintDotImage.h"
 
 bool Game_Init() 						    // 초기화
 {
@@ -21,6 +22,7 @@ void processInput()				        	// 입력 처리
 // char str[128];
 void update()				        		// 게임 업데이트 : 갱신
 {
+	PrintDotImage_PrintMove();
 	//sprintf_s(str, sizeof(str), "Text");
 	// Timer_GetDeltaTime();
 }
@@ -28,7 +30,7 @@ void update()				        		// 게임 업데이트 : 갱신
 void render()							    // 게임 출력
 {
 	// Renderer_DrawText("Text", sizeof("Text"));
-
+	
 	// 더블 버퍼링
 	// 1. 화면 전환하고
 	Renderer_Flip();
@@ -42,6 +44,8 @@ int32 Game_Run()			    			// 게임 실행
 	Timer_Init();							// Timer 초기화
 	Random_Init();							// Random 초기화
 
+	PrintDotImage_GenerateDotImage();
+	
 	// Game Loop
 	while (true)
 	{

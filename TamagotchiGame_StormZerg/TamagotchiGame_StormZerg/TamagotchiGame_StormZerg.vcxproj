@@ -142,6 +142,7 @@
     <ClCompile Include="Game.c" />
     <ClCompile Include="Input.c" />
     <ClCompile Include="Main.c" />
+    <ClCompile Include="PrintDotImage.c" />
     <ClCompile Include="Random.c" />
     <ClCompile Include="Renderer.c" />
     <ClCompile Include="Timer.c" />
@@ -150,6 +151,7 @@
     <ClInclude Include="Common.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Input.h" />
+    <ClInclude Include="PrintDotImage.h" />
     <ClInclude Include="Random.h" />
     <ClInclude Include="Renderer.h" />
     <ClInclude Include="Timer.h" />

@@ -27,7 +27,6 @@ bool Renderer_Init(void)
 
 void Renderer_Cleanup(void)									// 자원 정리
 {
-    // CloseHandle(s_consoleHandle);
     CloseHandle(s_screens[0]);
     CloseHandle(s_screens[1]);
 }

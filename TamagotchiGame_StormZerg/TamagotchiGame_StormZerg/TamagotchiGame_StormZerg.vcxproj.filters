@@ -34,6 +34,9 @@
     <ClCompile Include="Random.c">
       <Filter>Framework</Filter>
     </ClCompile>
+    <ClCompile Include="PrintDotImage.c">
+      <Filter>Framework</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -55,6 +58,9 @@
       <Filter>Framework</Filter>
     </ClInclude>
     <ClInclude Include="Random.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintDotImage.h">
       <Filter>Framework</Filter>
     </ClInclude>
   </ItemGroup>
