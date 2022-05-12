@@ -4,6 +4,7 @@
 #include "Timer.h"
 #include "Input.h"
 #include "PrintDotImage.h"
+#include "Text.h"
 
 bool Game_Init() 						    // 초기화
 {
@@ -19,7 +20,7 @@ void processInput()				        	// 입력 처리
 	Input_Update();
 }
 
-// char str[128];
+Text text[128];
 void update()				        		// 게임 업데이트 : 갱신
 {
 	PrintDotImage_PrintMove();
@@ -29,7 +30,7 @@ void update()				        		// 게임 업데이트 : 갱신
 
 void render()							    // 게임 출력
 {
-	// Renderer_DrawText("Text", sizeof("Text"));
+	// Renderer_DrawText(text, TextLen(text), 0 , 0);
 	
 	// 더블 버퍼링
 	// 1. 화면 전환하고

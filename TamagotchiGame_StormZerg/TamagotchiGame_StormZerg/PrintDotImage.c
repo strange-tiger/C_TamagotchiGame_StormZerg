@@ -1,4 +1,3 @@
-
 #include "Common.h"
 #include "PrintDotImage.h"
 #include "Renderer.h"
@@ -63,20 +62,20 @@ void PrintDotImage_PrintMove(void)
 
 	for (int i = 1; i <= upSpace; i++)
 	{
-		Renderer_DrawText("\n", sizeof("\n"));
+		// Renderer_DrawText("\n", sizeof("\n"), );
 	}
 	for (int i = 1; i < DOT_IMAGE_SIZE_Y; i++)
 	{
 		for (int j = 1; j <= leftSpace; j++)
 		{
-			Renderer_DrawText(" ", sizeof(" "));
+			// Renderer_DrawText(" ", sizeof(" "));
 		}
-		Renderer_DrawText(str[i], strlen(str[i]));
-		printf("\n");
+		// Renderer_DrawText(str[i], strlen(str[i]));
+		// printf("\n");
 	}
 
 	leftSpaceMoving = 0;
 	upSpaceMoving = 0;
 
-	Sleep(50);
+	// Sleep(50);
 }

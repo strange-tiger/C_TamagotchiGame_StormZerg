@@ -145,6 +145,7 @@
     <ClCompile Include="PrintDotImage.c" />
     <ClCompile Include="Random.c" />
     <ClCompile Include="Renderer.c" />
+    <ClCompile Include="Text.c" />
     <ClCompile Include="Timer.c" />
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +155,7 @@
     <ClInclude Include="PrintDotImage.h" />
     <ClInclude Include="Random.h" />
     <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Text.h" />
     <ClInclude Include="Timer.h" />
     <ClInclude Include="Type.h" />
   </ItemGroup>

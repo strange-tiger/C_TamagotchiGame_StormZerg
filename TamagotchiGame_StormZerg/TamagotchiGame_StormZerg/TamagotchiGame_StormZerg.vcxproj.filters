@@ -37,6 +37,9 @@
     <ClCompile Include="PrintDotImage.c">
       <Filter>Framework</Filter>
     </ClCompile>
+    <ClCompile Include="Text.c">
+      <Filter>Framework</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -61,6 +64,9 @@
       <Filter>Framework</Filter>
     </ClInclude>
     <ClInclude Include="PrintDotImage.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
       <Filter>Framework</Filter>
     </ClInclude>
   </ItemGroup>
